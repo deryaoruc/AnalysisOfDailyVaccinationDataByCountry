@@ -18,10 +18,3 @@ groupped = df.groupby("country")
 grouppedMedian = groupped.median().reset_index()
 grouppedMedianTopThree = grouppedMedian.head(3)
 print(grouppedMedian)
-
-
-# Number of total vaccinations done on 1/6/2021 (MM/DD/YYYY)
-
-# x = df.groupby("date").sum().reset_index()
-# xSorted = x.sort_values('date',ascending=True)
-# print(x)
